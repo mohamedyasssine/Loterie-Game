@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>lotterie</groupId>
+  
+  <artifactId>projetPO2</artifactId>
+  
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <name>lotterie</name>
+  
+  <dependencies>
+    <dependency>
+    	<groupId>io.reactivex.rxjava2</groupId>
+    	<artifactId>rxjava</artifactId>
+    	<version>2.2.4</version>
+    </dependency>
+  
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>16</version> <!-- Utilisez la version appropriée -->
+    </dependency>
+    
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>16</version> <!-- Utilisez la version appropriée -->
+    </dependency>
+    <!-- Ajoutez d'autres dépendances JavaFX si nécessaire -->
+  </dependencies>
+  <!-- le reactiveX et le javaFX sont bibliotheques externes deja telechargees   -->
+</project>
+
